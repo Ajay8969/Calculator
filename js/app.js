@@ -45,7 +45,7 @@ const plus = () => {
   display.value += "+";
 }
 const multiply = () => {
-  display.value = '*';
+  display.value += '*';
 }
 const equal = () => {
   display.value = eval(display.value);
